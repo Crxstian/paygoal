@@ -57,7 +57,7 @@ public class ProductoController {
             ProductoDto dto =productoService.modificar(producto);
             response = ResponseEntity.status(HttpStatus.OK).body(dto);
         } catch (ProductoException e) {
-            //LOGGER.error("El usuario a modificar No existe");
+            //LOGGER.error("El producto a modificar No existe");
             response = ResponseEntity.status(HttpStatus.BAD_REQUEST).body(e.getMessage());
         } catch (Exception e) {
             e.printStackTrace();
