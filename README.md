@@ -2,13 +2,13 @@
 Ejercicio Jr - Java - Cristian Siles   
 Esta API permite gestionar productos con las siguientes operaciones: crear, modificar, buscar por ID o nombre, listar por precio y eliminar.
 
-Versiones Utilizadas
-Spring Framework: 3.2.5
-Java: 17
-H2 Database: H2 2.2.224 (2023-09-17)
-Configuración de Spring
-Si necesitas configurar Spring, puedes usar las siguientes propiedades en tu archivo application.properties:
-
+## Versiones Utilizadas
+- Spring Framework: 3.2.5
+- Java: 17
+- H2 Database: H2 2.2.224 (2023-09-17)
+- Configuración de Spring
+- Si necesitas configurar Spring, puedes usar las siguientes propiedades en tu archivo application.properties:
+```properties
 spring.application.name=paygoal
 spring.h2.console.enabled=true
 spring.datasource.driver-class-name=org.h2.Driver
