@@ -1,5 +1,16 @@
 # API de Gestión de Productos
-Ejercicio Jr - Java - Cristian Siles   
+Ejercicio Jr - Java 
+
+Contacto:
+
+- Cristian Samuel Siles Rodriguez
+
+- Email: Cristian19overdrive@gmail.com 
+
+- Linkedin: https://www.linkedin.com/in/cristianssr/
+
+- Telefono: 1123911470 
+
 Esta API permite gestionar productos con las siguientes operaciones: crear, modificar, buscar por ID o nombre, listar por precio y eliminar.
 
 ## Versiones Utilizadas
@@ -20,7 +31,8 @@ spring.jpa.hibernate.ddl-auto=update
 spring.jpa.properties.hibernate.format_sql=true
 spring.main.allow-bean-definition-overriding=true
 
-Tambien utilizo DTOs -ProductoDto (Data Transfer Objects) para enviar datos entre la capa de presentación y la capa de servicio en la aplicación,para separar la representación de los datos de su estructura interna.
+Tambien utilizo DTOs -ProductoDto (Data Transfer Objects) para enviar datos entre la capa de presentación y la
+capa de servicio en la aplicación,para separar la representación de los datos de su estructura interna.
 
 Endpoints
 Listar Productos por Precio
@@ -53,9 +65,10 @@ Body Request:
 }
 Buscar Producto por ID o Nombre
 GET /productos/{idONombre}
-Busca un producto por ID o nombre, el parametro puede ser un numero para buscar por id o un texto con el que buscara por nombre,
-el sistema no trae solo un resultado, sino que retorna una coleccion con los resultados de productos que pueden ser mas de 1 con 
-el mismo nombre por ejemplo (mouse con cable, mouse inalambrico)
+Busca un producto por ID o nombre, el parametro puede ser un numero para buscar por id o un texto
+con el que buscara por nombre,el sistema no trae solo un resultado, sino que retorna una coleccion
+con los resultados de productos que pueden ser mas de 1 con  el mismo nombre
+por ejemplo (mouse con cable, mouse inalambrico)
 
 Eliminar Producto
 DELETE /productos/{id}
