@@ -31,6 +31,13 @@ spring.jpa.hibernate.ddl-auto=update
 spring.jpa.properties.hibernate.format_sql=true
 spring.main.allow-bean-definition-overriding=true
 
+Para la documentación de la API en este proyecto, se ha utilizado Swagger con la versión 2.5.0
+# Swagger configuration
+springdoc.swagger-ui.enabled=true
+springdoc.api-docs.enabled=true
+# Custom path for swagger-ui
+springdoc.swagger-ui.path=/swagger-ui.html
+
 Tambien utilizo DTOs -ProductoDto (Data Transfer Objects) para enviar datos entre la capa de presentación y la
 capa de servicio en la aplicación,para separar la representación de los datos de su estructura interna.
 
