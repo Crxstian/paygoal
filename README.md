@@ -81,7 +81,8 @@ por ejemplo (mouse con cable, mouse inalambrico)
 
 Eliminar Producto
 DELETE /productos/{id}
-Elimina un producto por ID,podemos hacer un Get
+Elimina un producto por ID,podemos hacer un Get al endpoint /productos y nos trae todos con sus id, sabiendo el id podemos
+realizar el DELETE por ejemplo: /productos/2  
 
 Servicios
 ProductoService
