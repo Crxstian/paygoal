@@ -12,6 +12,7 @@ Contacto:
 - Telefono: 1123911470 
 
 Esta API permite gestionar productos con las siguientes operaciones: crear, modificar, buscar por ID o nombre, listar por precio y eliminar.
+Se hicieron todas las pruebas desde Postman, funcionando correctamente
 
 ## Versiones Utilizadas
 - Spring Framework: 3.2.5
