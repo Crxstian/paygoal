@@ -51,8 +51,6 @@ Body Request:
   "cantidad": 38
 }
 Modificar Producto
-bash
-Copy code
 PUT /productos
 Modifica un producto existente, se necesita enviar el objeto producto completo, y modificar alguno de sus atributos
 Body Request:
