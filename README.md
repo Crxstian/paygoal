@@ -32,6 +32,9 @@ spring.jpa.properties.hibernate.format_sql=true
 spring.main.allow-bean-definition-overriding=true
 
 Para la documentación de la API en este proyecto, se ha utilizado Swagger con la versión 2.5.0
+
+Para acceder: http://localhost:8080/swagger-ui/index.html
+
 # Swagger configuration
 springdoc.swagger-ui.enabled=true
 springdoc.api-docs.enabled=true
